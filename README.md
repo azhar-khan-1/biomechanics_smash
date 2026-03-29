@@ -1,76 +1,128 @@
-# 🏸 Biomechanical Analysis of Trunk Lean in Badminton Jump Smash
+# 🏸 Badminton Jump Smash Biomechanics Analyzer
 
-This project focuses on analyzing trunk lean and body orientation during a badminton jump smash using a biomechanics-based approach.
+> Biomechanical analysis of **trunk lean and body orientation** during badminton jump smash — comparing match (Inter-IIT) vs training conditions using frame-based video analysis.
 
 ---
 
-## 📌 Overview
+## 📊 Comparative Analysis of Jump Smash Conditions
 
-The badminton jump smash is a high-intensity overhead movement that requires coordinated action of the trunk, shoulder, and upper body.
+The image below compares trunk lean and body orientation during jump smash under match and training conditions, highlighting differences in movement patterns, power generation, and control.
 
-This project analyzes how trunk movement contributes to:
-- Power generation  
-- Body coordination  
-- Injury risk management  
-
-The analysis is performed using frame-based video evaluation and manual biomechanical measurement techniques.
+![Comparison](https://drive.google.com/file/d/1qaKM1Pn19JBNq9rKM39n7Gx_dsTvLD9F/view?usp=sharing)
 
 ---
 
 ## 🎯 Objective
 
-- To analyze trunk lean during badminton jump smash  
-- To compare movement patterns between match and training conditions  
-- To understand biomechanical implications for performance and injury prevention  
+- Analyze trunk lean angle during badminton jump smash
+- Compare trunk usage between **real match** and **training** footage
+- Identify biomechanical implications for **performance optimization** and **injury prevention**
 
 ---
 
-## 🧪 Methodology
+## 🚀 Key Findings
 
-- Still frames extracted at shuttle contact phase  
-- Hip joint used as reference point  
-- Line drawn between hip and shoulder to represent trunk orientation  
-- Angle measured using protractor-based method  
-- Trunk lean calculated using:
+| Parameter | Match (Inter-IIT) | Training |
+|-----------|:-----------------:|:--------:|
+| Orientation Angle (θ) | 63° | 68° |
+| Trunk Lean Angle | **27°** | **22°** |
 
-Trunk Lean = |90° − θ|
+> **Trunk Lean = \|90° − θ\|**
 
-Where θ is the orientation angle of the trunk with respect to horizontal  
-
----
-
-## 📊 Results & Analysis
-
-- Match condition shows higher trunk lean → better power generation  
-- Training condition shows controlled body orientation → better technique  
-- Trunk lean range observed: ~20°–30° (optimal range)  
+- ✅ Match condition → **higher trunk lean** → greater power generation
+- ✅ Training condition → **more controlled posture** → technical execution
+- ✅ Both values fall within **optimal range of 20–30°**
 
 ---
 
-## 📈 Insights
+## 📊 Graph Analysis
 
-- Proper trunk involvement improves smash efficiency  
-- Balanced trunk lean reduces stress on shoulder and lower back  
-- Excessive forward lean may increase injury risk  
+[Graph Analysis](https://drive.google.com/file/d/1YMtFw3GSk9_GxoQW6Fn4pKPcjEkOSpew/view?usp=sharing.png)
 
----
-
-## 💡 Practical Applications
-
-- Useful for coaches for technique correction  
-- Helps in performance monitoring during training and matches  
-- Can identify risky movement patterns early  
+- Match condition shows **higher trunk lean angle** (27°)
+- Training condition shows **more controlled body orientation** (22°)
+- Trunk lean between **20–30° is considered optimal** for jump smash
 
 ---
 
-## 🔬 Key Takeaway
+## 🧠 Methodology
 
-This project demonstrates that even simple, field-based biomechanical analysis can provide meaningful insights into sports performance and injury prevention.
+```
+Still Frame Extraction (shuttle contact phase)
+            │
+            ▼
+Hip Joint → Reference Point
+            │
+            ▼
+Line: Hip to Shoulder → Trunk Orientation
+            │
+            ▼
+Online Protractor → Aligned with Vertical Axis
+            │
+            ▼
+Trunk Lean = |90° - θ|
+```
+
+- Frames selected at **shuttle contact phase**
+- **Hip joint** used as anatomical reference point
+- Line drawn between **hip and shoulder** to represent trunk segment
+- Deviation from vertical axis measured using online protractor tool
 
 ---
 
-## 👨‍💻 Author
+## 📐 Angle Calculation
+
+| Term | Definition |
+|------|-----------|
+| θ (Orientation Angle) | Angle between trunk segment and horizontal reference |
+| Trunk Lean Angle | \|90° − θ\| — deviation from vertical |
+| Optimal Range | 20° – 30° for effective jump smash |
+
+---
+
+## 🔍 Interpretation
+
+- Trunk lean of **20–30°** allows efficient power transfer from lower to upper body
+- **Higher trunk lean** during match → adrenaline-driven explosive movement
+- **Lower trunk lean** during training → controlled technical focus
+- Excessive forward lean (>35°) may increase **injury risk** to shoulder and lower back
+
+---
+
+## 💡 Practical Implications
+
+- 🎯 Coaches can use **simple video-based screening** for technique monitoring
+- 📱 No expensive equipment needed — works with smartphone footage
+- ⚠️ Helps identify **risky movement patterns** early
+- 📈 Useful for tracking technique improvement over training sessions
+
+---
+
+## 📋 Data Source
+
+- **Image 1** — Captured during Inter-IIT competitive match (58th Inter-IIT Sports Meet)
+- **Image 2** — Captured during training session
+- Analysis performed using **still-frame biomechanical screening**
+- Method suitable for **field-based biomechanical analysis**
+
+---
+
+## 🏆 Competition
+
+**Applied Sports Biomechanics Project**  
+Submitted to **Sports Authority of India (SAI)**  
+Focus: Performance optimization and injury risk reduction
+
+---
+
+## 👤 Author
 
 **Azhar Khan**  
-M.Tech Biomedical Engineering, IIT Indore  
-🏸 Inter-IIT Badminton Player | 🏆 District Champion | 🏊 State Swimmer  
+M.Tech – Biomedical Engineering  
+Indian Institute of Technology (IIT) Indore  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
