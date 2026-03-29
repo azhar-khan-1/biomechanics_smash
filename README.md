@@ -37,7 +37,9 @@ The image below compares trunk lean and body orientation during jump smash under
 
 ## 📊 Graph Analysis
 
-![Graph Analysis](graph analysis.png)
+## 📊 Graph Analysis
+
+![Graph](graph%20analysis.png)
 
 - Match condition shows **higher trunk lean angle** (27°)
 - Training condition shows **more controlled body orientation** (22°)
