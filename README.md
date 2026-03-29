@@ -8,7 +8,7 @@
 
 The image below compares trunk lean and body orientation during jump smash under match and training conditions, highlighting differences in movement patterns, power generation, and control.
 
-![Comparison](https://drive.google.com/file/d/1qaKM1Pn19JBNq9rKM39n7Gx_dsTvLD9F/view?usp=sharing)
+[Comparison](https://drive.google.com/file/d/1qaKM1Pn19JBNq9rKM39n7Gx_dsTvLD9F/view?usp=sharing)
 
 ---
 
